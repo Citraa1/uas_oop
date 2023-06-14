@@ -1,0 +1,9 @@
+{% extends 'base.html' %} {% block content %}
+
+<h2 class="mt-5">Daftar Buku</h2>
+
+{% for book in books %}
+<li>{{book.judul }}</li>
+{% endfor %}
+<!-- {{ penulis }}  -->
+{% endblock %}
